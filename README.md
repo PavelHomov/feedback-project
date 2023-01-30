@@ -1,5 +1,3 @@
-# yamdb_final
-
 # YaMDb
 
 ### About:
@@ -100,5 +98,6 @@ Go to the application container and upload the data to the database:
 ```
 docker container exec -it <CONTAINER ID> bash
 python manage.py loaddata <DATA BASE>
+```
 
 ![workflow](https://github.com/PavelHomov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
