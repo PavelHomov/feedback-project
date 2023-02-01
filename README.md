@@ -1,6 +1,5 @@
 # YaMDb
 
-
 ### About:
 The YaMDb is a review-aggregation project for film, television, book, music. The YaMDb collect online reviews from users. The users upload their reviews to the movie(TV-show,book,music) page on the website.The YaMDb keeps track of all the reviews counted for each film. An average score on a 0 to 10 scale is also calculated.
 ### Developers:
