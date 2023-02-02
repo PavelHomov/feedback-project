@@ -3,12 +3,14 @@ version: '3.8'
 services:
   db:
     image: postgres:13.0-alpine
+    platform: linux/x86_64
     volumes:
       - database:/var/lib/postgresql/data/
     env_file:
       - ./.env
   web:
     image: pavelhomov/apiyambdyp:v1.0.2022
+    platform: linux/x86_64
     restart: always
     volumes:
       - static_value:/app/static/
@@ -20,6 +22,7 @@ services:
 
   nginx:
     image: nginx:1.21.3-alpine
+    platform: linux/x86_64
 
     ports:
       - "80:80"
