@@ -102,7 +102,7 @@ class TitlesViewSet(viewsets.ModelViewSet):
     ).order_by('name')
     serializer_class = TitleListSerializer
     permission_classes = (IsAdminUserOrReadOnly,)
-    filter_backends = (DjangoFilterBackend,)
+    filter_backends = (filters.SearchFilter,)
     filterset_class = TitlesFilter
     pagination_class = PageNumberPagination
 
