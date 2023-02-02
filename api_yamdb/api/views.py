@@ -102,6 +102,7 @@ class TitlesViewSet(viewsets.ModelViewSet):
     serializer_class = TitleListSerializer
     permission_classes = (IsAdminUserOrReadOnly,)
     filter_backends = (filters.SearchFilter,)
+    search_fields = ('=name',)
     filterset_class = TitlesFilter
     pagination_class = PageNumberPagination
 
