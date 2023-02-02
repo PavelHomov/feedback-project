@@ -12,7 +12,7 @@ EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'Optional default value')
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
