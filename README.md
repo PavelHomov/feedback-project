@@ -1,8 +1,5 @@
-# YaMDb 130.193.43.35
-
-
 ### About:
-The YaMDb is a review-aggregation project for film, television, book, music. The YaMDb collect online reviews from users. The users upload their reviews to the movie(TV-show,book,music) page on the website.The YaMDb keeps track of all the reviews counted for each film. An average score on a 0 to 10 scale is also calculated.
+The feedback-project is a review-aggregation project for film, television, book, music. The YaMDb collect online reviews from users. The users upload their reviews to the movie(TV-show,book,music) page on the website.The YaMDb keeps track of all the reviews counted for each film. An average score on a 0 to 10 scale is also calculated.
 ### Developers:
 - [Iskander Ryskulov](https://github.com/IskanderRRR)
 - [Pavel Homov](https://github.com/PavelHomov)
@@ -100,5 +97,3 @@ Go to the application container and upload the data to the database:
 docker container exec -it <CONTAINER ID> bash
 python manage.py loaddata <DATA BASE>
 ```
-
-![workflow](https://github.com/PavelHomov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
