@@ -15,7 +15,6 @@ The feedback-project is a review-aggregation project for film, television, book,
 - Django Rest Framework
 - Simple-JWT
 - Git
-- SQLite
 
 ### User Roles
 - Anonymous - can view descriptions of works, read reviews and comments.
